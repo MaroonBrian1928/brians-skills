@@ -26,6 +26,7 @@ The lead coordinates and reviews, subagents implement. The lead's context is the
 - **Tests**: every behaviour change gets a test that goes red without the change, including the edge cases you already know about. For a fix that guards a subtle failure (races, double-posting, fallbacks), have the agent remove the fix, watch its test go red, then restore it.
 - **Verify**: the repo's single check command (e.g. `mise run check`). Leave changes uncommitted in your worktree.
 - **Report**: at most 10 lines: files changed, tests added, deviations, open risks.
+- **Pace**: end every brief, including ones for research and review agents, with this sentence verbatim: "Time matters here: do not spend time that can be avoided, and the earlier a correct result is obtained, the better." Without it, subagents put thoroughness ahead of speed.
 
 Point at the repo's rules (AGENTS.md, the check command) instead of restating them; a rule the check command enforces needs no sentence in the brief.
 
