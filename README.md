@@ -8,9 +8,12 @@ Agent skills for [Claude Code](https://claude.com/claude-code).
 
 ## Install
 
-Copy a skill's folder into `~/.claude/skills/` (all projects) or `.claude/skills/` (one project):
+In Claude Code:
 
-```sh
-git clone git@github.com:MaroonBrian1928/brians-skills.git
-cp -r brians-skills/delegating-to-subagents ~/.claude/skills/
 ```
+/plugin install brians-skills --marketplace MaroonBrian1928/brians-skills
+```
+
+On older versions, add the marketplace first with `/plugin marketplace add MaroonBrian1928/brians-skills`, then `/plugin install brians-skills@brians-skills`.
+
+Every push to `main` is a new release. To get updates without running `/plugin marketplace update`, turn on auto-update for the `brians-skills` marketplace under `/plugin` → Marketplaces.

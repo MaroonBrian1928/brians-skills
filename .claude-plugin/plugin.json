@@ -1,0 +1,10 @@
+{
+  "name": "brians-skills",
+  "description": "Brian's agent skills: subagent delegation with parallel worktrees, review and landing.",
+  "author": {
+    "name": "MaroonBrian1928",
+    "url": "https://github.com/MaroonBrian1928"
+  },
+  "repository": "https://github.com/MaroonBrian1928/brians-skills",
+  "skills": ["./delegating-to-subagents"]
+}

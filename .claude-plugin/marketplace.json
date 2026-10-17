@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "brians-skills",
+  "description": "Brian's agent skills for Claude Code.",
+  "owner": {
+    "name": "MaroonBrian1928",
+    "url": "https://github.com/MaroonBrian1928"
+  },
+  "plugins": [
+    {
+      "name": "brians-skills",
+      "source": "./",
+      "description": "Brian's agent skills: subagent delegation with parallel worktrees, review and landing.",
+      "category": "productivity"
+    }
+  ]
+}
